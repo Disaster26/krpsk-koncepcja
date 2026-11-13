@@ -232,7 +232,15 @@ section{padding:clamp(64px,8vw,120px) 0}
   .sek-head{margin-bottom:32px}
   .sek-head p,.omnie-tekst p,.kontakt-dane > p{font-size:16.5px}
   .karty{grid-auto-columns:84%;gap:16px}
-  .kw{font-size:38px}
+  .kw{font-size:34px}
+  .pakiety{gap:12px}
+  .pakiet{padding:18px 20px;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 16px;align-items:center}
+  .pakiet h3{font-size:18px;grid-column:1}
+  .pakiet .cena{grid-column:2;grid-row:1 / span 2;margin:0;text-align:right;line-height:1.1}
+  .pakiet .cena .kw{display:block;margin:0}
+  .pakiet p:last-child{grid-column:1;font-size:14px}
+  .rodo-dol{margin-top:36px;gap:28px}
+  .plus{padding:22px 20px}
   .tabela th,.tabela td{padding:13px 6px}
   .tabela td{font-size:19px}
   .tabela thead th{font-size:18px}
